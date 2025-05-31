@@ -1,0 +1,18 @@
+{
+  "name": "it-nusantara-landing",
+  "version": "1.0.0",
+  "description": "Landing page for IT Nusantara using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/styles/tailwind.css -o public/styles.css",
+    "watch": "postcss src/styles/tailwind.css -o public/styles.css --watch"
+  },
+  "author": "IT Nusantara",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.2.19",
+    "postcss": "^8.4.6",
+    "autoprefixer": "^10.4.2"
+  },
+  "devDependencies": {}
+}
